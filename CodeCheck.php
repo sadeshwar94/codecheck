@@ -20,7 +20,7 @@ include_once 'dbconfig.php';
 <?php 
 if(isset($_GET['success']))
 {
-	?><label>File Uploaded Successfully...  <a href="view.php">click here to view file.</a></label>
+	?><label>File Uploaded Successfully...!!!!  <a href="view.php">click here to view file.</a></label>
         <?php
 	}
 	else if(isset($_GET['fail']))
@@ -39,7 +39,7 @@ if(isset($_GET['success']))
 
 
 
-	
+	<h2> This is a test !!! </h2>
 			
 </div>
 </body>
